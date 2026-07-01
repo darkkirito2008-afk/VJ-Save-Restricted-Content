@@ -28,12 +28,12 @@ ADMINS = int(os.environ.get("ADMINS", "7195555305"))
 # Your Channel Id In Which Bot Upload Downloaded Video/File/Message etc.
 # And Make Your Bot Admin In this channel with full rights.
 # if you don't want to upload in channel then leave it blank don't fill anything.
-CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
+CHANNEL_ID = os.environ.get("CHANNEL_ID", "4413159220")
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://praveenpraveen56127_db_user:<db_password>@restrictioncontent.usap5zu.mongodb.net/?appName=RestrictionContent") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_NAME = os.environ.get("DB_NAME", "savecontentbot")
 
 # Increase time as much as possible to avoid floodwait, spamming and tg account ban issues.
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds
